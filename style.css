@@ -32,8 +32,9 @@ body{
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.80);
     border-radius: 8px;
     width: 375px;
-    height: 500px;
+    height: 510px;
     padding-top: 10px;
+    padding-bottom: 0px;
 }
 
 .controlsWrapper{
@@ -53,12 +54,13 @@ body{
 }
 
 .controlsWrapper input{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 1.2em;
     height: 40px;
     border: none;
     border-radius: 8px;
+    background-color: hsl(185, 53%, 89%);
 }
 
 .controlsWrapper button{
@@ -66,7 +68,7 @@ body{
     margin-top: 0px;
     font-size: 1.2em;
     height: 40px;
-    width: 125px;
+    width: 175px;
     border-radius: 15px;
     border: 2px solid black;
     background-color: green;
@@ -79,14 +81,24 @@ body{
     background-color: hsl(120, 49%, 55%);
 }
 
+.displayLabel{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-style: italic;
+    color: darkgreen;
+    font-size: 1.1em;
+}
+
 .controlsWrapper .resultArea{
     margin-bottom: 20px;
     align-content: center;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: darkorange;
     background-color: white;
+    box-shadow: 0 1px 8px rgba(49, 49, 49, 0.8);
     width: 250px;
-    height: 65px;
+    height: 45px;
     border-radius: 12px;
 }

@@ -18,8 +18,11 @@
             <input type="number" id="billAmt" placeholder="$0.00" autofocus="true"><br>
             <p class="instructionLabel">Enter Tip Percentage</p>
             <input type="number" id="tipPct" placeholder="0.00%"><br>
-            <button id="calculate" onclick="calculateTip()">Calculate</button>
+            <button id="calculate" onclick="calculateTip()">Calculate Tip</button>
+            <p class="displayLabel">Tip Amount</p>
             <div id="resultDisplay" class="resultArea">$0.00</div>
+            <p class="displayLabel">Total Bill Amount</p>
+            <div id="totalAmtDisplay" class="resultArea">$0.00</div>
             <button id="reset" onclick="clearEntries()">Reset</button>
         </div>
 
