@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Wizzard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="appTitle">
+        <label>Tip Wizzard</label>
+    </div>
+
+    <div class="appWrapper">
+        <div class="controlsWrapper">
+            <p class="instructionLabel">Enter Bill Amount</p>
+            <input type="number" id="billAmt" placeholder="$0.00" autofocus="true"><br>
+            <p class="instructionLabel">Enter Tip Percentage</p>
+            <input type="number" id="tipPct" placeholder="0.00%"><br>
+            <button id="calculate" onclick="calculateTip()">Calculate</button>
+            <div id="resultDisplay" class="resultArea">$0.00</div>
+            <button id="reset" onclick="clearEntries()">Reset</button>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
