@@ -14,6 +14,7 @@ body{
 .appTitle{
     font-size: 2.0em;
     font-weight: bold;
+    color: rgb(1, 82, 1);
     margin-top: 35px;
     margin-bottom: 25px;
 }
@@ -33,7 +34,7 @@ body{
     border-radius: 8px;
     width: 375px;
     height: 510px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
 
@@ -53,10 +54,17 @@ body{
     font-size: 1.1em;
 }
 
+.fieldSymbol{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgb(1, 82, 1);
+}
+
 .controlsWrapper input{
     margin-bottom: 10px;
-    text-align: center;
-    font-size: 1.2em;
+    text-align: end;
+    font-size: 1.3em;
+    width: 175px;
     height: 40px;
     border: none;
     border-radius: 8px;
@@ -98,7 +106,7 @@ body{
     color: darkorange;
     background-color: white;
     box-shadow: 0 1px 8px rgba(49, 49, 49, 0.8);
-    width: 250px;
+    width: 220px;
     height: 45px;
     border-radius: 12px;
 }
