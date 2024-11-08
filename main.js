@@ -6,6 +6,14 @@ const resultDisplay = document.getElementById("resultDisplay");
 const totalAmtDisplay = document.getElementById("totalAmtDisplay");
 
 
+function setTwoNumberDecimal(event) {
+    this.value = parseFloat(this.value).toFixed(2);
+}
+
+billAmt.onchange = setTwoNumberDecimal;
+tipPct.onchange = setTwoNumberDecimal;
+
+
 function calculateTip(){
     tipAmt = (billAmt.value * (tipPct.value/100));
     resultDisplay.innerText = tipAmt.toLocaleString("en-US", {style: "currency", currency: "USD"});
